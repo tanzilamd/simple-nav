@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+nav{
+    margin-top: 2rem;
+}
+ul.nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul.nav li a{
+    text-decoration: none;
+    background-color: rgb(8, 133, 133);
+    color: #fff;
+    padding: 1.5rem 3rem;
+    display: inline-block; 
+    font-size: 1.2rem;
+}
+ul.nav li a:hover{
+    background-color: rgb(5, 65, 65);
+}
+ul.nav li{
+    position: relative;
+    
+}
+ul.dropdown {
+    list-style: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+}
+ul.nav li:hover ul.dropdown {
+    display: block;
+}
